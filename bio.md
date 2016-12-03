@@ -7,7 +7,7 @@ permalink: /bio/
 <section class="about-me inner" itemscope itemtype="http://data-vocabulary.org/Person">
   <div class="pull-right speak-french"></div>
 
-<h2>Current positions</h2>
+<h2>Current position</h2>
 <ul>
 <strong>Information Sciences Institute - University of Southern California, Marina del Rey, USA</strong>
 <ul>Visiting Research Assistant, 2016&ndash;present</ul>
@@ -15,7 +15,7 @@ permalink: /bio/
 
 <h2>Past positions</h2>
 <ul>
-<strong>IMT Institute for Advanced Study, Lucca, ITALY</strong>
+<strong>IMT Institute for Advanced Studies, Lucca, ITALY</strong>
 <ul>Guest Scholar, 2015&ndash;2016</ul>
 <strong>IMT Institute for Advanced Studies, Lucca, ITALY</strong>
 <ul>Visiting Ph.D. Student, 2014&ndash;2015</ul>
