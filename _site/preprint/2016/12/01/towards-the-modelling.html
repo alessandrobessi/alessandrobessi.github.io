@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="aexITLS38FdIRzwj25OVWxm87rpa9l-UV0URTyC9cTs" />
+  <title>
+    Towards the Modeling of Behavioral Trajectories of Users in Online Social Media
+    
+  </title>
+  <link rel="stylesheet" href="/css/site.css">
+  <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu+Mono|Roboto:400,700,300italic">
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  
+
+  
+
+  
+
+  
+</head>
+<body>
+  <!-- <div class="top-bar">
+  </div> -->
+
+  <div class="header-container">
+    <header class="inner">
+      <nav>
+        <a class="" href="/">Home</a>
+        <a class="" href="/bio/">Bio</a>
+        <a class="" href="/publications/">Publications</a>
+        <a class="" href="/blog/">Blog</a>
+        <!-- <a class=" contact" href="/contact/">Contact</a> -->
+        <!-- <a href="https://www.officehour.fr/ssaunier" target="_blank">Contact</a> -->
+      </nav>
+      <div class="pull-right right logo">
+        <div class="name">
+          <a href="/">Alessandro Bessi</a><br />
+          <small>
+            <em>
+                data scientist & researcher
+            </em>
+          </small>
+        </div>
+        <img class="avatar" src="/images/pic.png" alt="My profile picture" />
+      </div>
+      <div class="clear"></div>
+    </header>
+    <div class="clear"></div>
+  </div>
+
+  
+
+<article>
+  <h1 class="inner">
+    Towards the Modeling of Behavioral Trajectories of Users in Online Social Media
+  </h1>
+
+  <p class="inner meta">Thursday 1 December 2016</p>
+
+  <div class="post">
+    <p>Over the last decade, the rise of online social media has caused a huge shift in the way people find information, interpret facts, and shape their opinions. Facebook news feeds, Twitter timelines, and blogs are replacing morning newspapers and nightly news. Nowadays everyone can produce and consume information without any filter or restriction. 
+<br><br>
+Such a disintermediated environment has proved to be a fiasco for the public&#39;s understanding of current affairs: clickbait news that pander to readers&#39; worst instincts are proliferating on blogs; conspiracy theories that simplify causation and reduce the complexity of reality are spreading more than stories that are balanced and thoroughly reported; Facebook is flooded by fake news fabricated by fringe websites; Twitter is swamped by bots --- algorithmically driven entities that on the surface appear as legitimate users --- distorting the political debate; the emergence of virtual echo chambers --- non-interacting polarized communities centered on different narratives wherein enclaves of like-minded people reinforce their preexisting beliefs --- is reducing viewpoint diversity and flattening debates.
+<br><br>
+What is happening in online social media is worsening the political polarization, jeopardizing the quality of democratic discourse, influencing policy preferences, and encouraging behaviors strongly divergent from recommended practices. For these reasons, a better understanding of the behavioral, cognitive, and psychological processes underlying the observed dynamics is a matter that Science has to address.
+<br><br>
+In this work, we propose a methodology that leverages Hidden Markov Models to represent behavioral trajectories of users in online social media. A Hidden Markov Model (HMM) is a probabilistic model in which the system being modeled is assumed to be a Markov process with unobserved (hidden) states. HMMs extend the framework provided by Markov chains in order to model systems in which the states (or events) we are interested in are not directly observable. 
+<br><br>
+The fundamental idea behind the approach that we are introducing is the following. In social network analysis, we can observe actions performed by users --- e.g. likes, comments, shares, retweets, etc. ---, but the worldviews, inclinations, and orientations driving those actions remain hidden. It follows that Hidden Markov Models --- wherein the hidden states are supposed to cause observables outputs --- might provide an appropriate and convenient probabilistic framework for the modeling of behavioral trajectories of users in online social media. In this paper, we show that HMMs can embed time series of different length representing the comments left by users supporting conflicting narratives. For the sake of generalization and to provide platform-agnostic results, we apply our methodology to two different online social media: Facebook and YouTube.
+<br><br>
+Our results show that Hidden Markov Models are able to model behavioral trajectories of users by embedding their visible actions in online social media. Besides the soundness of the intuition and the straightforward idea motivating the use of HMMs in this context, the main strength of our approach is that it allows to compare users that performed a different number of actions --- i.e. users that are represented by time series of different length. Indeed, we can compare users by using a model-based distance between their HMMs, and then apply spectral clustering to discover homogeneous clusters of users showing similar trajectories.
+<br><br>
+<strong><a href="https://arxiv.org/pdf/1611.05778v1.pdf">Read the full preprint article.</a></strong></p>
+
+  </div>
+</article>
+
+<script>
+  function resizeSlideshares() {
+    var elements = document.getElementsByClassName("slideshare");
+    for (var i in elements) {
+      var element = elements[i];
+      if (element.style) {
+        element.style.height = (element.offsetWidth * 0.805) + 'px';
+      }
+    }
+  }
+  window.addEventListener("resize", resizeSlideshares);
+  window.addEventListener('load', resizeSlideshares);
+</script>
+
+  <div class="separator"></div>
+
+  <div  style="border-bottom: 1px solid #ddd"></div>
+  <footer>
+    <ul class="links">
+      <li>
+        <a href="https://github.com/alessandrobessi" title="See my code on GitHub">
+          <i class="icon-github"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/intent/follow?screen_name=ibbessi" title="Follow me on Twitter">
+          <i class="icon-twitter"></i>
+        </a>
+        </li>
+      <li>
+        <a href="https://www.linkedin.com/in/alessandrobessi" title="Connect with me on LinkedIn">
+          <i class="icon-linkedin"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-40867989-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    /*!
+     * http://github.com/ssaunier/track-outbound-links
+     * Copyright 2013 Sébastien Saunier
+     * @license MIT
+     */
+    !function(e,t){function n(){for(var n=t.getElementsByTagName("a"),a=[],r=0;r<n.length;++r){var o=n[r];o.host!=e.location.host&&a.push(o)}return a}function a(n){for(var a=n.srcElement||n.target;a&&("undefined"==typeof a.tagName||"a"!=a.tagName.toLowerCase()||!a.href);)a=a.parentNode;a&&a.href&&(e._gaq&&_gaq.push(["_trackEvent","Outbound link","Click",a.href]),(!a.target||a.target.match(/^_(self|parent|top)$/i))&&(setTimeout(function(){t.location.href=a.href},150),n.preventDefault?n.preventDefault():n.returnValue=!1))}e.addEventListener("load",function(){var e=n();for(var t in e)e[t].addEventListener("click",a)})}(window,document);
+    var links = document.links;
+    for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+       if (links[i].hostname != window.location.hostname) { links[i].target = '_blank'; }
+    }
+
+    /*
+     * Detect if we are included in an iframe => move.
+     */
+    if (window.top !== window.self
+        && !window.self.location.href.match(/headsha\.re/))
+    {
+      window.top.location.replace(window.self.location.href);
+    }
+  </script>
+
+  <!--
+  <script id="_webengage_script_tag" type="text/javascript">
+    // var _weq = _weq || {};
+    // _weq['webengage.licenseCode'] = '11b563c38';
+    // _weq['webengage.widgetVersion'] = "4.0";
+
+    // (function(d){
+    //   var _we = d.createElement('script');
+    //   _we.type = 'text/javascript';
+    //   _we.async = true;
+    //   _we.src = (d.location.protocol == 'https:' ? "https://ssl.widgets.webengage.com" : "http://cdn.widgets.webengage.com") + "/js/widget/webengage-min-v-4.0.js";
+    //   var _sNode = d.getElementById('_webengage_script_tag');
+    //   _sNode.parentNode.insertBefore(_we, _sNode);
+    // })(document);
+  </script>
+  -->
+
+</body>
+</html>
