@@ -9,11 +9,15 @@ permalink: /bio/
 
 <h2>Current position</h2>
 <ul>
-<strong>Information Sciences Institute - University of Southern California, Marina del Rey, USA</strong>
-<ul>Visiting Research Assistant, 2016&ndash;present</ul>
+<strong>Nextbit - Data Intelligence, Milan, ITALY</strong>
+<ul>Artificial Intelligence Expert, 2017&ndash;present</ul>
 </ul>
 
 <h2>Past positions</h2>
+<ul>
+<strong>Information Sciences Institute - University of Southern California, Marina del Rey, USA</strong>
+<ul>Visiting Research Assistant, 2016&ndash;2017</ul>
+</ul>
 <ul>
 <strong>IMT Institute for Advanced Studies, Lucca, ITALY</strong>
 <ul>Guest Scholar, 2015&ndash;2016</ul>
