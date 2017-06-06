@@ -16,7 +16,7 @@ permalink: /bio/
 <h2>Past positions</h2>
 <ul>
 <strong>Information Sciences Institute - University of Southern California, Marina del Rey, USA</strong>
-<ul>Visiting Research Assistant, 2016&ndash;2017</ul>
+<ul>Postdoctoral Researcher, 2016&ndash;2017</ul>
 </ul>
 <ul>
 <strong>IMT Institute for Advanced Studies, Lucca, ITALY</strong>
