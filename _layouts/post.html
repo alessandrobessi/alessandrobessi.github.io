@@ -19,17 +19,3 @@ layout: default
     {{ content }}
   </div>
 </article>
-
-<script>
-  function resizeSlideshares() {
-    var elements = document.getElementsByClassName("slideshare");
-    for (var i in elements) {
-      var element = elements[i];
-      if (element.style) {
-        element.style.height = (element.offsetWidth * 0.805) + 'px';
-      }
-    }
-  }
-  window.addEventListener("resize", resizeSlideshares);
-  window.addEventListener('load', resizeSlideshares);
-</script>
