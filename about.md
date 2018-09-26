@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I carry AI research and development forward at Nextbit (Milan, ITALY), where I lead a team of data scientists and software engineers to deploy **state-of-the-art deep learning** and artificial intelligence solutions across different industries. 
+I carry AI Research and Development forward at Nextbit (Milan, ITALY), where I lead a team of data scientists and software engineers to deploy **state-of-the-art deep learning** and artificial intelligence solutions across different industries. 
 
 We mainly code in Python leveraging deep learning frameworks such as **PyTorch** and **TensorFlow**. We deploy models and solutions on-premise, in the cloud (AWS or GCP), or both by providing tailor-made user interfaces calling models and core algorithms via API.
 
