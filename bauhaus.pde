@@ -23,13 +23,12 @@ int minutesHeight = 10;
 int hoursWidth = 70;
 int hoursHeight = 10;
 
-
 void setup() {
 
   size(600, 600);
   background(255, 255, 255);
   smooth(8);
-  
+
   cx = width / 2;
   cy = height / 2;
 }
@@ -42,35 +41,35 @@ void draw() {
   fill(255);
   noStroke();
   ellipse(cx, cy, clockDiameter, clockDiameter);
-  
+
   // text
   textSize(16);
   fill(0);
   text("swatch", cx - 25, cy - 50); 
   textSize(12);
   text("SWISS", cx - 15, cy - 37);
-  
+
   // ticks
   fill(0);
   int number = 1;
   for (int i = 0; i < 360; i = i + 30) {
     /*
     pushMatrix();
-    if (i % 90 == 0) {
-      tickWidth = 20;
-      tickDistance = 100;
-    } else {
-      tickWidth = 10;
-      tickDistance = 100;
-    }
+     if (i % 90 == 0) {
+     tickWidth = 20;
+     tickDistance = 100;
+     } else {
+     tickWidth = 10;
+     tickDistance = 100;
+     }
+     
+     translate(cx + cos(radians(i)) * tickDistance, cy + sin(radians(i)) * tickDistance);
+     rotate(radians(i));
+     translate(- tickHeight / 2, - tickHeight / 2);
+     rect(0, 0, tickWidth, tickHeight);
+     popMatrix();
+     */
 
-    translate(cx + cos(radians(i)) * tickDistance, cy + sin(radians(i)) * tickDistance);
-    rotate(radians(i));
-    translate(- tickHeight / 2, - tickHeight / 2);
-    rect(0, 0, tickWidth, tickHeight);
-    popMatrix();
-    */
-    
     if (number > 10) {
       numberOffset = 15;
     } else {
@@ -116,10 +115,9 @@ void draw() {
   // tic toc
   secondsAngle += 2 * PI / 60;
   minutesAngle += 2 * PI / 3600;
-  hoursAngle += 2 * PI / 86400;
+  hoursAngle += 2 * PI / (86400 / 2);
 
   // delay(tic);
-  
+
   // saveFrame("./frameFiles/screen-#####.tiff");
-  
 }
