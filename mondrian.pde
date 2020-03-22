@@ -98,13 +98,13 @@ void setup() {
   cy = height / 2;
 
   squares[0] = new Square(cx - w / 2, cy - h / 2, 200, 100, 255, 255, 255);
-  squares[1] = new Square(cx - w / 2, cy - h / 2 + 100, 200, h - 100, 226, 200, 5);
-  squares[2] = new Square(cx - w / 2 + 200, cy - h / 2, 100, h - 300, 210, 6, 2);
-  squares[3] = new Square(cx - w / 2 + 200, cy - h / 2 + 200, 100, h - 400, 3, 164, 238);
+  squares[1] = new Square(cx - w / 2, cy - h / 2 + 100, 200, h - 100, 255, 255, 0);
+  squares[2] = new Square(cx - w / 2 + 200, cy - h / 2, 100, h - 300, 255, 0, 0);
+  squares[3] = new Square(cx - w / 2 + 200, cy - h / 2 + 200, 100, h - 400, 0, 100, 255);
   squares[4] = new Square(cx - w / 2 + 200, cy - h / 2 + 300, 100, h - 300, 255, 255, 255);
-  squares[5] = new Square(cx - w / 2 + 300, cy - h / 2 + h - 100, w - 300, 100, 210, 6, 2);
+  squares[5] = new Square(cx - w / 2 + 300, cy - h / 2 + h - 100, w - 300, 100, 255, 0, 0);
   squares[6] = new Square(cx - w / 2 + 300, cy - h / 2 + h - 250, 150, 150, 0, 0, 0);
-  squares[7] = new Square(cx - w / 2 + 450, cy - h / 2 + h - 250, 200, 150, 3, 164, 238);
+  squares[7] = new Square(cx - w / 2 + 450, cy - h / 2 + h - 250, 200, 150, 0, 100, 255);
   squares[8] = new Square(cx - w / 2 + w - 50, cy - h / 2 + h - 250, 50, 150, 255, 255, 255);
   squares[9] = new Square(cx - w / 2 + 300, cy - h / 2, 400, 250, 255, 255, 255);
 
