@@ -43,7 +43,7 @@ class ParticleSystem {
   int r, g, b;
   ParticleSystem(int num, PVector v, int _r, int _g, int _b) {
     particles = new ArrayList<Particle>();              // Initialize the arraylist
-    origin = v.copy();                                   // Store the origin point
+    origin = v;                                   // Store the origin point
     r = _r;
     g = _g;
     b = _b;
