@@ -90,7 +90,7 @@ class Particle {
     float vx = randomGaussian()*0.3;
     float vy = randomGaussian()*0.3 - 1.0;
     vel = new PVector(vx, vy);
-    loc = l.copy();
+    loc = new PVector(l.x, l.y);
     lifespan = 100.0;
     r = _r;
     g = _g;
