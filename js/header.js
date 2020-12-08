@@ -14,7 +14,7 @@ const maxParticleCount = 1000;
 let particleCount = 50;
 const r = 400;
 const rHalf = r / 2;
-const canvasHeight = 300;
+const canvasHeight = window.innerHeight / 2;
 
 const effectController = {
     showDots: true,
