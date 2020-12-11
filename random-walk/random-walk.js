@@ -6,7 +6,7 @@ let line;
 const MAX_POINTS = 50000;
 const LENGTH = 50;
 let drawCount;
-let r = 400;
+let r = Math.min(window.innerHeight, window.innerWidth) / 2;
 let halfR = r / 2;
 
 init();
