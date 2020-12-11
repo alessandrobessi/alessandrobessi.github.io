@@ -132,7 +132,7 @@ function animate() {
     line.geometry.setDrawRange(0, drawCount);
 
     updatePositions();
-    line.material.color.setRGB(Math.random(), Math.random(), Math.random());
+    line.material.color.setHSL(drawCount / MAX_POINTS * 100, 0.5, 0.5);
     line.material.color.needsUpdate = true;
 
     const time = Date.now() * 0.001;
