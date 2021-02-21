@@ -19,5 +19,10 @@
         "quote": "Talk is cheap. Show me the code.",
         "author": "Linus Torvalds"
     }
+    ,
+    {
+        "quote": "I hate code and I want as little of it as possible in our product.",
+        "author": "Jack Diederich"
+    }
     
 ]
